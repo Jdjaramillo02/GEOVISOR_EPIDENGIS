@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>EPIDENGIS CALI - Geoportal del Dengue</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #003366;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #005eb8;
+            color: white;
+            padding: 1em;
+        }
+        .logo {
+            width: 80px;
+        }
+        nav button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        main {
+            padding: 20px;
+        }
+        main img {
+            max-width: 90%;
+            height: auto;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            padding: 10px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/Logo_sig_dengue_EPIDENGIS.png" alt="Logo EPIDENGIS" class="logo">
+        <h1>EPIDENGIS CALI</h1>
+        <nav>
+            <button onclick="location.href='geovisor.html'">Geovisor</button>
+            <button onclick="location.href='tablero.html'">Tablero de Control</button>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>¿Qué es el dengue?</h2>
+            <p>El dengue es una enfermedad viral aguda causada por el virus del dengue (DENV), que pertenece al género Flavivirus...</p>
+            <img src="assets/infografia_dengue_Cali.png" alt="Infografía del dengue en Cali">
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 EPIDENGIS CALI - Universidad del Valle. Proyecto académico sin fines comerciales.</p>
+    </footer>
+</body>
+</html>
